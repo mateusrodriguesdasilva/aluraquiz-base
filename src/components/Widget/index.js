@@ -14,6 +14,7 @@ const Widget = styled.div`
     line-height: 1;
     margin-bottom: 0;
   }
+
   p {
     font-size: 14px;
     font-weight: 400;
@@ -27,7 +28,7 @@ Widget.Header = styled.header`
   justify-content: flex-start;
   align-items: center;
   padding: 18px 32px;
-  background-color: ${({ theme }) => theme.colors.primary};
+  background-color: ${({ theme }) => theme.colors.secondary};
   
   * {
     margin: 0;
@@ -47,13 +48,18 @@ Widget.Content = styled.div`
     list-style: none;
     padding: 0;
   }
+  h1 {
+    
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
 `;
 
 Widget.Topic = styled.a`
   outline: 0;
   text-decoration: none;
   color: ${({ theme }) => theme.colors.contrastText};
-  background-color: ${({ theme }) => `${theme.colors.primary}40`};
+  background-color: ${({ theme }) => `${theme.colors.widgetHeader}40`};
   padding: 10px 15px;
   margin-bottom: 8px;
   cursor: pointer;
