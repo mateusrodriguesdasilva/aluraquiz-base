@@ -1,32 +1,74 @@
 {
   "bg": "https://cdn.pixabay.com/photo/2019/09/29/22/06/light-bulb-4514505_1280.jpg?resize=1536%2C1208&ssl=1",
-  "title": "Quiz CSS da Alura",
+  "title": "Quiz da Filosofia",
   "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
   "descQuizDaGalera":"Acesse o quiz de cada participante da Imersão React e NextJS e divirta-se.",
   "questions": [
     {
-      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-      "title": "Como fazer um seletor por id via CSS?",
+      "image": "https://super.abril.com.br/wp-content/uploads/2018/07/5670682182bee174ca0355f0filosofos21.jpeg",
+      "title": "Qual filósofo pertence a frase: Nenhum homem pode banhar-se duas vezes no mesmo rio, pois na segunda vez o rio já não é o mesmo, nem tão pouco o homem.",
       "description": "Essa é pra aquecer",
-      "answer": 2,
+      "answer": 0,
       "alternatives": [
-        ".elemento",
-        "*elemento",
-        "#elemento",
-        "%elemento"
+        "Heráclito de Éfeso",
+        "Tales de Mileto",
+        "Demócrito",
+        "Pitágoras"
+        
       ]
     },
     {
       "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-      "title": "Como fazer um background gradiente com css?",
+      "title": "A República é a obra mais importante de qual filósofo?",
       "description": "Faz tempo em haha",
+      "answer": 1,
+      "alternatives": [
+        "Sócrates",
+        "Platão",
+        "Aristóteles",
+        "Parmênides"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+      "title": "Em que região da Grécia Aristóteles nasceu?",
+      "description": "Essa é pra aquecer",
+      "answer": 1,
+      "alternatives": [
+        "Eleia",
+        "Estagira", 
+        "Mileto",
+        "Agrigento"
+        
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+      "title": "Dentre as alternativas, qual obra pertence a platão?",
+      "description": "Essa é pra aquecer",
+      "answer": 2,
+      "alternatives": [
+        "Além do Bem e do Mal",
+        "Crítica da Razão Pura",
+        "Apologia de Sócrates", 
+        "Nenhuma das alternativas"
+        
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+      "title": "Anaxamandro era discípulo de qual filósofo?",
+      "description": "Essa é pra aquecer",
       "answer": 0,
       "alternatives": [
-         "background: linear-gradient(#e66465, #9198e5);",
-         "background: gradient(#e66465, #9198e5);"
+        "Tales de Mileto",
+        "Sócrates",
+        "Pitágoras",
+        "Anaxímenes"
       ]
     }
   ],
+
   "external": [
     "https://quiz-games.gabrielwolf-dev.vercel.app/",
     "https://quiz-contemplese.ricardoltt.vercel.app/",

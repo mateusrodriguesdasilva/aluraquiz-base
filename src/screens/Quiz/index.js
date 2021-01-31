@@ -12,6 +12,7 @@ import BackLinkArrow from '../../components/BackLinkArrow';
 function ResultWidget({ results }) {
   return (
     <Widget>
+      <BackLinkArrow href="/" />
       <Widget.Header>
         Tela de Resultado:
       </Widget.Header>
@@ -85,7 +86,7 @@ function QuestionWidget({
             <img
               alt="Descrição"
               style={{
-                width: '100%',
+                width: '348px',
                 height: '150px',
                 objectFit: 'cover',
               }}

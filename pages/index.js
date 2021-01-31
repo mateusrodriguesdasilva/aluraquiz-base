@@ -13,6 +13,8 @@ import Footer from '../src/components/Footer'
 import GitHubCorner from '../src/components/GitHubCorner'
 import Input from '../src/components/Input'
 import Button from '../src/components/Button'
+import BackLinkArrow from '../src/components/BackLinkArrow'
+
 
 
 //JavaScript
@@ -56,6 +58,7 @@ export default function Home() {
           animate="show"
         >
           <Widget.Header>
+          
             <h1>{db.title}</h1>
           </Widget.Header>
           <Widget.Content>
